@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const totalAmount = 30;
     const contributors = [
-        { name: 'Janis', amount: 30 },
+        { name: 'Janis', amount: 15 },
         { name: 'Gytis', amount: 10 },
         { name: 'Karolis', amount: 5 }
     ];
