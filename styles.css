@@ -3,15 +3,17 @@ body {
     font-family: Arial, sans-serif;
     background: url('gym-background.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-image: url('path/to/your/background-image.jpg');
+    background-image: url('gym-background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 100vh; /* Added line */
 }
 
 .container {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     margin: 50px auto;
+    margin-top: 100px; /* Added line to prevent sticking to the top */
     width: 80%;
     max-width: 600px;
     border-radius: 10px;
