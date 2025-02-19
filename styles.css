@@ -3,6 +3,9 @@ body {
     font-family: Arial, sans-serif;
     background: url('gym-background.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-image: url('path/to/your/background-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
