@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const totalAmount = 30;
+    const totalAmount = 47.40;
     const contributors = [
-        { name: 'Janis', amount: 15 },
-        { name: 'Gytis', amount: 10 },
-        { name: 'Karolis', amount: 5 }
+        { name: 'Janis', amount: 5 },
+        { name: 'Gytis', amount: 5 },
+        //{ name: 'Karolis', amount: 5 }
     ];
 
     const totalAmountElement = document.getElementById('total-amount');
@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     contributors.forEach(contributor => {
         const li = document.createElement('li');
-        li.textContent = `${contributor.name}: $${contributor.amount}`;
+        li.textContent = `${contributor.name}: € ${contributor.amount}`;
         contributorsListElement.appendChild(li);
         totalContributed += contributor.amount;
     });
 
     const remainderAmount = totalAmount - totalContributed;
 
-    totalAmountElement.textContent = `$${totalAmount}`;
-    remainderAmountElement.textContent = `$${remainderAmount}`;
+    totalAmountElement.textContent = `€ ${totalAmount}`;
+    remainderAmountElement.textContent = `€ ${remainderAmount}`;
 });
