@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalAmount = 47.40;
     const contributors = [
         { name: 'Janis', amount: 5 },
-        { name: 'Gytis', amount: 5 },
+        { name: 'Gytis', amount: 10 },
         { name: 'Eleonora', amount: 0.01 },
         //{ name: 'Karolis', amount: 5 }
     ];
