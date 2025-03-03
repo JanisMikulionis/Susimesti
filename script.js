@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'Janis', amount: 5 },
         { name: 'Gytis', amount: 10 },
         { name: 'Eleonora', amount: 0.01 },
-        { name: 'Julius', amount: 10 }
+        { name: 'Julius', amount: 10 },
+        { name: 'Uladzislau', amount: 3.39 }
     ];
 
     const totalAmountElement = document.getElementById('total-amount');
